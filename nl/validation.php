@@ -13,11 +13,11 @@ return [
     |
     */
 
-    'accepted'             => ':attribute moet geaccepteerd zijn.',
+    'accepted'             => ':attribute moet geaccepteerd worden.',
     'active_url'           => ':attribute is geen geldige URL.',
     'after'                => ':attribute moet een datum na :date zijn.',
     'alpha'                => ':attribute mag alleen letters bevatten.',
-    'alpha_dash'           => ':attribute mag alleen letters, nummers, onderstreep(_) en strepen(-) bevatten.',
+    'alpha_dash'           => ':attribute mag alleen letters, nummers, lage streepjes(_) en liggende streepjes(-) bevatten.',
     'alpha_num'            => ':attribute mag alleen letters en nummers bevatten.',
     'array'                => ':attribute moet geselecteerde elementen bevatten.',
     'before'               => ':attribute moet een datum voor :date zijn.',
@@ -27,7 +27,7 @@ return [
         'string'  => ':attribute moet tussen :min en :max karakters zijn.',
         'array'   => ':attribute moet tussen :min en :max items bevatten.',
     ],
-    'boolean'              => ':attribute moet true of false zijn.',
+    'boolean'              => ':attribute moet waar of niet waar zijn.',
     'confirmed'            => ':attribute bevestiging komt niet overeen.',
     'date'                 => ':attribute moet een datum bevatten.',
     'date_format'          => ':attribute moet een geldig datum formaat bevatten.',
@@ -41,14 +41,14 @@ return [
     'in'                   => ':attribute is ongeldig.',
     'integer'              => ':attribute moet een getal zijn.',
     'ip'                   => ':attribute moet een geldig IP-adres zijn.',
-    'json'                 => 'The :attribute must be a valid JSON string.',
+    'json'                 => ':attribute moet een geldige JSON string zijn.',
     'max'                  => [
         'numeric' => ':attribute mag niet hoger dan :max zijn.',
         'file'    => ':attribute mag niet meer dan :max kilobytes zijn.',
         'string'  => ':attribute mag niet uit meer dan :max karakters bestaan.',
         'array'   => ':attribute mag niet meer dan :max items bevatten.',
     ],
-    'mimes'                => ':attribute moet een bestand zijn van het bestandstype :values.',
+    'mimes'                => ':attribute moet een bestand van het bestandstype :values zijn.',
     'min'                  => [
         'numeric' => ':attribute moet minimaal :min zijn.',
         'file'    => ':attribute moet minimaal :min kilobytes zijn.',
@@ -72,8 +72,8 @@ return [
         'string'  => ':attribute moet :size karakters zijn.',
         'array'   => ':attribute moet :size items bevatten.',
     ],
-    'string'               => 'Het :attribute moet een tekenreeks zijn.',
-    'timezone'             => 'Het :attribute moet een geldige zone zijn.',
+    'string'               => ':attribute moet een tekenreeks zijn.',
+    'timezone'             => ':attribute moet een geldige zone zijn.',
     'unique'               => ':attribute is al in gebruik.',
     'url'                  => ':attribute is geen geldige URL.',
 
